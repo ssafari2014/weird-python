@@ -3,6 +3,7 @@ from googletrans import Translator
 from selenium.webdriver.common.by import By
 
 
+# functions translate
 def translate_text_world(word):
     translator = Translator()
     translation = translator.translate(word, src='fa', dest='en')
@@ -20,5 +21,3 @@ words2 = translation2.text.lower()
 driver = webdriver.Firefox()
 driver.get(
     f'https://divar.ir/s/{words}-province/{words2}?goods-business-type=marketplace&q={user_input}')
-
-
