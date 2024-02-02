@@ -22,4 +22,4 @@ driver = webdriver.Firefox()
 driver.get(
     f'https://divar.ir/s/{words}-province/{words2}?goods-business-type=marketplace&q={user_input}')
 
-# exel file in data
+# exel file in data x y

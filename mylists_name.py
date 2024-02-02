@@ -1,0 +1,1 @@
+mylist = ['sajjad', 'sina', 'ftm']
